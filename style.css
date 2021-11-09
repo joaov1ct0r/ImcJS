@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+}
+#imcContainer {
+    width: 50%;
+    height: 30em;
+    margin: 3% auto auto auto;
+    background-color: #152238;
+}
+#imcContainer h1 {
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+#imcContainer input {
+    display: block;
+    max-width: 25em;
+    height: 2em;
+    margin: 2% auto auto auto;
+}
+#imcContainer label {
+    display: block;
+    margin: 5% auto auto auto;
+    text-align: center;
+    color: white;
+}
+#imcContainer #sendValue {
+    display: block;
+    width: 10em;
+    height: 3em;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    background-color: black;
+}
+#imcContainer #sendValue:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.display {
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+}
